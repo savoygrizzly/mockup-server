@@ -1,0 +1,28 @@
+name: Build and Deploy React App
+
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required for OIDC
+      contents: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.OIDC_ARN }} # Update with your IAM Role
+          aws-region: eu-central-1
+
+      - name: Sync pages
+        run: aws s3 sync pages/ s3://cheeta-media/v2/pages/ --delete
+
+      - name: Invalidate CloudFront cache
+        run: aws cloudfront create-invalidation --distribution-id E2N4B4YSRT1QOV --paths '/v2/pages/*'
