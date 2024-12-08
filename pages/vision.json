@@ -1,0 +1,82 @@
+{
+  "pageName": "Our vision",
+  "pageDesc": "Learn more about the our vision and the products we create.",
+  "components": [
+    {
+      "type": "Header",
+      "props": {
+        "title": "Our vision",
+        "slogan": "What defines us",
+        "image": "v2/pages/Vision/cover.jpg",
+        "gradient": "linear-gradient(84deg, rgb(249 230 0) 10%, rgb(244, 238, 218) 60%, rgb(255, 255, 255) 100%)"
+      }
+    },
+    {
+      "type": "Paragraph",
+      "props": {
+        "styles": {
+          "block": {
+            "margin": "10vh 0"
+          }
+        },
+        "title": "Products made to work together.",
+        "paragraphs": [
+          {
+            "name": "name1",
+            "desc": "Because we believe that Routesetters should be able to create the best problems possible, we dedicated ourselves to design and create products that can easily be stacked together and will work together to create the best setting experience possible."
+          },
+          {
+            "name": "name2",
+            "desc": "Our products are designed to be intercompatible, meaning that they can be used together to create the best setting experience possible."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/Vision/6tleDyno.jpg",
+        "title": "Designed for every occasions.",
+        "paragraphs": [
+          {
+            "name": "name23",
+            "desc": "From the easy eyecatcher to the Olympic final, our products are designed to be used in every setting occasion."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/Vision/shaperider.jpg",
+        "paragraphs": [
+          {
+            "title": "Hassle free for an easier Routesetting.",
+            "desc": "Don't you love it when it all snaps into place without stacking screw ons on top of each other? We do too. That's why we've designed our products to be as simple to use as possible."
+          },
+          {
+            "title": "Made to last",
+            "desc": "Cheeta products are manufactured using the best materials available, ensuring that they will last for years to come. We also implement innovative solutions to ensure durability of use.\nFrom the switchable bolt inside our Shaperider range to the interchangeable panels of our newest Hybrids."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "styles": {
+          "descWrapper": {
+            "order": "-1"
+          }
+        },
+        "image": "v2/pages/Vision/hybrids.jpg",
+        "paragraphs": [
+          {
+            "title": "Shaping the movement.",
+            "desc": "We strive to provide Routesetters with the tools to create problems where the only limit is their imagination. This is the very concept that started Cheeta."
+          }
+        ]
+      }
+    }
+  ]
+}

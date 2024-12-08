@@ -1,0 +1,129 @@
+{
+  "pageName": "Silex",
+  "pageDesc": "New design, new possibilities.",
+  "components": [
+    {
+      "type": "VideoScroll",
+      "props": {
+        "src": "v2/pages/Silex/animEncoded.mp4",
+        "playbackConst": 60,
+        "poster": "v2/pages/Silex/cover.jpg",
+        "interactiveElements": [
+          {
+            "from": -1,
+            "to": 3,
+            "elements": [
+              {
+                "element": "title",
+                "text": "Silex",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "100%",
+                  "height": "fit-content",
+                  "left": "0",
+                  "textAlign": "center",
+                  "bottom": "30%",
+                  "fontSize": "6vh",
+                  "textTransform": "uppercase",
+                  "letterSpacing": "0.5rem",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+          {
+            "from": 4,
+            "to": 6,
+            "elements": [
+              {
+                "element": "title",
+                "text": "Modular",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "100%",
+                  "height": "fit-content",
+                  "left": "0",
+                  "textAlign": "center",
+                  "bottom": "20%",
+                  "fontSize": "4vh",
+                  "textTransform": "uppercase",
+                  "letterSpacing": "0.2rem",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+          {
+            "from": 6.1,
+            "to": 8,
+            "elements": [
+              {
+                "element": "title",
+                "text": "Aesthetic",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "100%",
+                  "height": "fit-content",
+                  "left": "0",
+                  "textAlign": "center",
+                  "bottom": "20%",
+                  "fontSize": "4vh",
+                  "textTransform": "uppercase",
+                  "letterSpacing": "0.2rem",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+          {
+            "from": 8.1,
+            "to": 12,
+            "elements": [
+              {
+                "element": "title",
+                "text": "Available now",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "100%",
+                  "height": "fit-content",
+                  "left": "0",
+                  "textAlign": "center",
+                  "bottom": "20%",
+                  "fontSize": "4vh",
+                  "textTransform": "uppercase",
+                  "letterSpacing": "0.2rem",
+                  "color": "#000"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/Silex/silex1.jpg",
+        "title": "Modern designs, made to fit.",
+        "paragraphs": [
+          {
+            "name": "name23",
+            "desc": "The new Silex range combines asthetically pleasing modern design with full modularity, providing Routesetters with the tools to please the eye as well as the climber."
+          },
+          {
+            "name": "name24",
+            "desc": "Dual-texture faces, smooth angles."
+          }
+        ]
+      }
+    }
+  ]
+}

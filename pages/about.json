@@ -1,0 +1,109 @@
+{
+  "pageName": "About",
+  "pageDesc": "About us",
+  "components": [
+    {
+      "type": "Header",
+      "props": {
+        "title": "About us",
+        "slogan": "Our story.",
+        "image": "v2/pages/About/cover.jpg",
+        "gradient": "linear-gradient(49deg, rgb(50 50 50) 15%, rgb(32 97 113) 30%, rgb(0 0 0) 100%)"
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/About/lolo.jpg",
+        "paragraphs": []
+      }
+    },
+    {
+      "type": "Paragraph",
+      "props": {
+        "styles": {
+          "block": {
+            "margin": "10vh 0"
+          }
+        },
+        "title": "Born from experience",
+        "paragraphs": [
+          {
+            "name": "name1",
+            "desc": "Our story goes back a long way. Back in the 90's, in a french barn located in Burgundy, home to the world's best wines."
+          },
+          {
+            "name": "name2",
+            "desc": "Laurent Laporte, climber and competitor started to shape and produce his own climbing holds to train with friends. He then became a very passionate setter, and one of the first international routesetter in history. Regularly setting on major events. He became quite the specialist, notably for the first bouldering world cups."
+          },
+          {
+            "name": "name3",
+            "desc": "Always looking to create new movements, he started to shape is own grips to make new movements possible. Those shapes were really technical and specific, hence the aesthetics being directly inspired from the ones you could find while climbing outdoors. However as time went on, he decided focus more on how “space defines the movements”, to that endeavor in 2016 Cheeta Climbing was registered in Switzerland, marking the beginning of Cheeta as we know it."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/About/setters.jpg",
+        "paragraphs": [
+          {
+            "title": "Designed for setters",
+            "desc": "Following this evolutionary logic, Cheeta started to offer shapes allowing the setters to create unique movements.\n\nHowever, always looking to experiment we started to create even newer generations of interconnected holds and volumes making for an endless combination of possibilities and a very wide range of difficulties altogether with the same material."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/About/sascha.jpg",
+        "title": "Pushing Innovation forward.",
+        "imageDesc": "Copyright 2024 Jan Virth",
+        "paragraphs": [
+          {
+            "name": "innovation",
+            "desc": "To give life to our concepts we have to constantly push the boundaries of innovation in the climbing industry. This has lead Cheeta to be recognized as one of most innovating climbing holds company in the world, with our products often copied but never quite equalled."
+          },
+          {
+            "name": "innovation2",
+            "desc": "We innovate in our ways to shape, to imagine new combinations for our products, in the materials we use as well as for our production processes; All of that with one goal in mind: to give the possibility to any Routesetter to \"Shape the movement\". "
+          }
+        ]
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/About/silex.jpg",
+        "title": "Cheeta partner of the greatest events",
+        "imageDesc": "Copyright 2024 Jan Virth",
+        "paragraphs": [
+          {
+            "name": "innovation",
+            "desc": "Since it's inception began, pursuing the goal of providing newer shapes and ideas, Cheeta has always been present on competitions from local contests all the way to the Olympic games in Tokyo, then in Paris. We see competitions as the perfect lab for our products; Wether to test-drive them or to inspire new concepts. The specific needs for movements imagined by the Routesetters pushed us to create new innovations , from the first screw-on's and Dual-textured holds imagined by Laurent for the old Rock-Masters, to the slope adjusters like the Links and the stackable modules like the Sky-Balls, Wooden Balls or Shape-Rider."
+          },
+          {
+            "name": "innovation2",
+            "desc": "All this is what makes some of our products legendary and bound to create great moves."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "styles": {},
+        "image": "v2/pages/About/future.jpg",
+
+        "paragraphs": [
+          {
+            "title": "Looking to the future",
+            "desc": "Since 2023, Cheeta has grown to be a part of the Grimper.ch group, and the adventure continues with the arrival of new team members, contributing both creatively and organizationally. While increasingly used on competitions, our products are also widely used in highly frequented climbing gyms with a rapid turnover of route setting.\n\nThis means our equipment is rigorously tested in real-world conditions. Our top priorities include ensuring long-term durability, despite regular handling and cleaning, and designing products that can be repaired, reinforcing our commitment to sustainability.\n\nLooking ahead, our future lies in continuing to uphold our commitment to excellence, customer service, expert advice, fast delivery times, and reliable after-sales support. These values remain central to our mission as we grow."
+          }
+        ]
+      }
+    }
+  ]
+}

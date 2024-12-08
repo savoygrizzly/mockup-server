@@ -1,0 +1,61 @@
+{
+  "pageName": "Stadium",
+  "pageDesc": "Discover our new range of PU Holds and Fiber Volumes.",
+  "components": [
+    {
+      "type": "Header",
+      "props": {
+        "title": "Stadium",
+        "slogan": "Let the games begin.",
+        "image": "v2/pages/Stadium/cover.jpg",
+        "gradient": "linear-gradient(84deg, rgb(0 139 255) 20%, rgb(255 217 21) 50%, rgb(255 217 21) 100%)"
+      }
+    },
+
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/Stadium/compress.jpg",
+        "title": "Modern day edges and slopers.",
+        "paragraphs": [
+          {
+            "name": "name23",
+            "desc": "Be it with the bigger more pinchy volumes to the smaller crimps, the shapes in the Stadium range will provide you a hold for every move."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Paragraph",
+      "props": {
+        "styles": {
+          "block": {
+            "margin": "10vh 0"
+          }
+        },
+        "title": "The stadium, defined.",
+        "paragraphs": [
+          {
+            "name": "name1",
+            "desc": "Prepare for battle and step into the Stadium with your weapon of choice. Discover our new range of PU holds and fiberglass volumes, whether you prefer crimps, slopers, or jugs, our collection has it all."
+          },
+          {
+            "name": "name2",
+            "desc": "These sleek blades and shields are both ergonomic and refined, offering a visually appealing design."
+          },
+          {
+            "name": "name3",
+            "quote": "The collection also features a variety of jugs and some tricky dual-textured surfaces for added challenge. Choose from 115 PU holds and 10 fiberglass volumes (with a dual-texture option). "
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageDescription",
+      "props": {
+        "image": "v2/pages/Stadium/move.jpg",
+        "description": "For every inclination, every angle, any level.\nYou will find your fit in the Stadium range."
+      }
+    }
+  ]
+}

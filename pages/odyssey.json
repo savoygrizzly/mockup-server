@@ -1,0 +1,94 @@
+{
+  "pageName": "Odyssey",
+  "pageDesc": "Discover our new range of PU Holds and Fiber Volumes.",
+  "components": [
+    {
+      "type": "Header",
+      "props": {
+        "title": "Odyssey",
+        "slogan": "Embark on a journey.",
+        "image": "v2/pages/Odyssey/cover.jpg",
+        "gradient": "linear-gradient(84deg, rgb(251, 93, 172) 2%, rgb(255 233 21) 50%, rgb(233, 212, 4) 100%)"
+      }
+    },
+    {
+      "type": "ImageDescription",
+      "props": {
+        "image": "v2/pages/Odyssey/Hands2.jpg",
+        "description": "Climbing on these new and original shapes is like embarking on a long and adventurous journey."
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/Odyssey/dynamic.jpg",
+        "title": "Made to give movement.",
+        "paragraphs": [
+          {
+            "name": "name23",
+            "desc": "Need to set a dyno with some palm compression involved ? Look no further."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Paragraph",
+      "props": {
+        "styles": {
+          "block": {
+            "margin": "10vh 0"
+          }
+        },
+        "title": "What is Odyssey ?",
+        "paragraphs": [
+          {
+            "name": "name0",
+            "desc": "When looking for a name, Odyssey ended up first. The word itself means a long and adventurous journey, and that's exactly what we want to offer with this range. The possibility to create adventurous and original movements."
+          },
+          {
+            "name": "name1",
+            "desc": "These innovative grips offer new possibilities for setters, allowing climbers to hang on with ease but pulling is going to be hard."
+          },
+          {
+            "name": "name2",
+            "desc": "The comfortable rounded edges are perfect for creating Fontainebleau-style compressions or dynamic moves."
+          },
+          {
+            "name": "name3",
+            "desc": "Explore 32 PU holds and 17 fiberglass volumes (with a dual-texture option) for endless climbing opportunities."
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/Odyssey/product.jpg",
+        "paragraphs": [
+          {
+            "title": "Offering a positive grip",
+            "desc": "When set on a slab, the Odyssey range offers a positive, easier grip, for any level."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "styles": {
+          "descWrapper": {
+            "order": "-1"
+          }
+        },
+        "image": "v2/pages/Odyssey/product2.jpg",
+        "paragraphs": [
+          {
+            "title": "To more technical and demanding moves",
+            "desc": "When turned sideways, the Odyssey range offers a more technical and demanding grip, requiring more body tension and technique."
+          }
+        ]
+      }
+    }
+  ]
+}

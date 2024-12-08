@@ -1,0 +1,102 @@
+{
+  "pageName": "Shaping the movement",
+  "pageDesc": "A channel by Cheeta, about climbing, routesetting, and the origins of our brand.",
+  "style": {
+    "background": "rgb(0 0 0 / 90%)",
+    "color": "white"
+  },
+  "darkTheme": true,
+  "components": [
+    {
+      "type": "Header",
+      "props": {
+        "title": "Shaping the movement",
+        "slogan": "The story of our origins.",
+        "image": "v2/pages/lolo/cover.jpg",
+        "gradient": "linear-gradient(84deg, rgb(255 255 255) 2%, rgb(0 0 0) 50%, rgb(0, 0, 0) 100%)"
+      }
+    },
+    {
+      "type": "ImageDescription",
+      "props": {
+        "image": "v2/pages/lolo/lift.jpg",
+        "description": "Competition Routesetting, the origins."
+      }
+    },
+    {
+      "type": "Paragraph",
+      "props": {
+        "styles": {
+          "block": {
+            "margin": "10vh 0"
+          }
+        },
+        "title": "Routesetting and the herd mentality.",
+        "paragraphs": [
+          {
+            "name": "name1",
+            "desc": "The herd mentality is a psychological phenomenon that occurs when individuals follow the behaviors of the majority of the group. This is a common behavior in humans and animals, and it is a way for people to feel safe and secure in their environment."
+          },
+          {
+            "name": "name2",
+            "desc": "In the climbing world, the herd mentality can be seen in the way that climbers approach routesetting. Climbers often follow the same routes that others have set, and they tend to stick to the same types of holds and movements that are popular in the climbing community."
+          },
+          {
+            "name": "name3",
+            "desc": "This can be a problem for routesetters, as it can lead to a lack of creativity and innovation in the sport. To combat this, routesetters need to think outside the box and create new and challenging routes that push climbers to think differently and try new things."
+          },
+          {
+            "name": "name4",
+            "quote": "Setting is caring."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/lolo/remi-pierre.jpg",
+        "title": "Sharing the knowledge.",
+        "paragraphs": [
+          {
+            "name": "name23",
+            "desc": "Sharing knowledge is a key part of the climbing community. Climbers are always looking for ways to improve their skills and learn new techniques, and one of the best ways to do this is by sharing information with others."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/lolo/placement.jpg",
+        "paragraphs": [
+          {
+            "title": "The philosophy behind the movement.",
+            "desc": "Setting is caring.\nSetting is sharing.\nSetting is the movement.\nAnd I love linebreaks"
+          },
+          {
+            "title": "And it's origins.",
+            "desc": "Setting is sharing a beer, and talking about the next project."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "styles": {
+          "descWrapper": {
+            "order": "-1"
+          }
+        },
+        "image": "v2/pages/lolo/lolo-crack.jpg",
+        "paragraphs": [
+          {
+            "title": "The Meiringen crack.",
+            "desc": "The story of this epic Worldcup boulder. It all started with a crazy idea. And then it became a reality. And I don't like long textlines but I have no choice but make sure they work."
+          }
+        ]
+      }
+    }
+  ]
+}

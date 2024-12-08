@@ -1,0 +1,338 @@
+[
+  {
+    "type": "VideoScroll",
+    "props": {
+      "src": "videos/LinkHybdride_MP4-O.mp4",
+      "playbackConst": 700,
+      "poster": "videos/LinkHybdrid_cover.jpg",
+      "interactiveElements": [
+        {
+          "from": 0,
+          "to": 1,
+          "elements": [
+            {
+              "element": "title",
+              "text": "Links",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "100%",
+                "height": "fit-content",
+                "left": "0",
+                "textAlign": "center",
+                "bottom": "20%",
+                "fontSize": "4vh",
+                "textTransform": "uppercase",
+                "letterSpacing": "0.2rem",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+        {
+          "from": 1.1,
+          "to": 2,
+          "elements": [
+            {
+              "element": "title",
+              "text": "Hybrids",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "100%",
+                "height": "fit-content",
+                "left": "0",
+                "textAlign": "center",
+                "top": "20%",
+                "fontSize": "4vh",
+                "textTransform": "uppercase",
+                "letterSpacing": "0.2rem",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+
+        {
+          "from": 2.01,
+          "to": 3,
+          "elements": [
+            {
+              "element": "subtitle",
+              "text": "Modular plates",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "auto",
+                "height": "fit-content",
+                "left": "5%",
+                "textAlign": "center",
+                "bottom": "45%",
+                "fontSize": "3vh",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+        {
+          "from": 3.01,
+          "to": 3.9,
+          "elements": [
+            {
+              "element": "subtitle",
+              "text": "Multiple bases",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "auto",
+                "height": "fit-content",
+                "right": "14%",
+                "textAlign": "center",
+                "top": "25%",
+                "fontSize": "3vh",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+        {
+          "from": 3.91,
+          "to": 5,
+          "elements": [
+            {
+              "element": "subtitle",
+              "text": "Easily replaceable",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "auto",
+                "height": "fit-content",
+                "left": "5%",
+                "textAlign": "center",
+                "bottom": "35%",
+                "fontSize": "3vh",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+        {
+          "from": 5.01,
+          "to": 6,
+          "elements": [
+            {
+              "element": "title",
+              "text": "Everlasting possibilities",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "100%",
+                "height": "fit-content",
+                "left": "0",
+                "textAlign": "center",
+                "bottom": "30%",
+                "fontSize": "3vh",
+                "textTransform": "uppercase",
+                "letterSpacing": "0.2rem",
+                "color": "#000"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "HeroGrid",
+    "props": {
+      "children": [
+        {
+          "type": "Hero",
+          "props": {
+            "title": "The Cheeta vision.",
+            "subtitle": "What makes the difference.",
+            "link": "/pages/vision",
+            "styles": {
+              "heroStyle": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+                "color": "#fff"
+              },
+              "heroUnitStyle": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+                "alignItems": "center"
+              }
+            },
+            "buttons": [
+              {
+                "text": "Learn more",
+                "link": "/pages/vision"
+              }
+            ],
+            "backgroundImage": "v2/homepage/05-05-2024/vision.jpg"
+          }
+        },
+        {
+          "type": "Hero",
+          "props": {
+            "title": "Odyssey",
+            "subtitle": "Embark on a new journey",
+            "description": "Discover now",
+            "link": "/overview/Soft PU-Holds/42",
+            "styles": {
+              "heroStyle": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+                "color": "#fff"
+              },
+              "heroUnitStyle": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+                "alignItems": "center"
+              }
+            },
+            "buttons": [
+              {
+                "text": "Shop Odyssey Fiberglass",
+                "link": "/products/Fiberglass%20volumes/2/overview/Odyssey"
+              }
+            ],
+            "backgroundImage": "v2/homepage/05-05-2024/odysseySwing.jpg"
+          }
+        },
+        {
+          "type": "Hero",
+          "props": {
+            "title": "Link Hybrids",
+            "subtitle": "A new kind of holds",
+            "description": "Now available",
+            "link": "/overview/Hybrids/43",
+            "styles": {
+              "heroStyle": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+                "color": "#fff"
+              },
+              "heroUnitStyle": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+                "alignItems": "center"
+              }
+            },
+            "buttons": [
+              {
+                "text": "Shop now",
+                "link": "/overview/Hybrids/43"
+              }
+            ],
+            "backgroundImage": "v2/homepage/05-05-2024/LinkHybrid.jpg"
+          }
+        },
+        {
+          "type": "Hero",
+          "props": {
+            "title": "Wooden Balls",
+            "subtitle": "Let's play.",
+            "description": "Shop now",
+            "link": "/products/Wooden%20volumes/3/overview/Balls",
+            "styles": {
+              "heroStyle": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-end"
+              },
+              "heroUnitStyle": {
+                "display": "flex",
+                "flexDirection": "column",
+                "justifyContent": "flex-end",
+                "alignItems": "center"
+              }
+            },
+            "buttons": [
+              {
+                "text": "Shop now",
+                "link": "/products/Wooden%20volumes/3/overview/Balls"
+              }
+            ],
+            "backgroundImage": "v2/homepage/05-05-2024/ball.jpg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "Slider",
+
+    "props": {
+      "styles": {
+        "slider": {
+          "height": "40vh"
+        }
+      },
+      "slides": [
+        {
+          "name": "Odyssey",
+          "description": "Embark on a new journey.",
+          "title": "Odyssey",
+          "link": "/overview/Odyssey/1",
+          "button": {
+            "text": "Embark on a new journey",
+            "linkClass": "core_link_button-feedback"
+          },
+          "backgroundImage": "v2/homepage/05-05-2024/odyssey.jpg",
+          "styles": {
+            "unit": {
+              "backgroundColor": "white"
+            }
+          }
+        },
+        {
+          "name": "Stadium",
+          "description": "Discover the new range.",
+          "title": "Stadium",
+          "link": "/overview/Stadium/1",
+          "button": {
+            "text": "Let the games begin",
+            "linkClass": "core_link_button-feedback"
+          },
+          "backgroundImage": "v2/homepage/05-05-2024/stadium3.jpg",
+          "styles": {
+            "unit": {
+              "backgroundColor": "white"
+            }
+          }
+        },
+        {
+          "name": "Soft-PU-Holds",
+          "description": "Holds for everyone.",
+          "title": "Soft-PU Holds",
+          "link": "/overview/Soft PU-Holds/42",
+          "button": {
+            "text": "Our Soft-PU ranges",
+            "linkClass": "core_link_button-feedback"
+          },
+          "backgroundImage": "v2/homepage/05-05-2024/softPu.jpg",
+          "styles": {
+            "unit": {
+              "backgroundColor": "white",
+              "color": "#fff"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

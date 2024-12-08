@@ -1,0 +1,242 @@
+{
+  "pageName": "Hybrids",
+  "pageDesc": "Discover our new Hybrids, a revolutionary combination for the best of both worlds.",
+  "components": [
+    {
+      "type": "Header",
+      "props": {
+        "title": "Hybrids",
+        "slogan": "A new era.",
+        "image": "v2/pages/Hybrids/cover.jpg",
+        "gradient": "linear-gradient(49deg, rgb(0 88 255) 15%, #4ddbff 30%, rgb(255, 255, 255) 100%)"
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/Hybrids/dyno.jpg",
+        "title": "Switch it up.",
+        "paragraphs": [
+          {
+            "name": "name23",
+            "desc": "Featuring switchable plates mounted on a PU or Fiberglass base, the Hybrids allow setters to unleash their creativity while ensuring a long lasting product, reducing costs."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Paragraph",
+      "props": {
+        "styles": {
+          "block": {
+            "margin": "10vh 0"
+          }
+        },
+        "title": "Enhanced longevity, amplified creativity.",
+        "paragraphs": [
+          {
+            "name": "name1",
+            "desc": "The Hybrids are the answer to the longevity problem caused by wood screws on fiberglass and PU products."
+          },
+          {
+            "name": "name2",
+            "desc": "Featuring a base either in PU or Fiberglass, with a switchable wooden (and soon PU) panel. The panel itself includes standard inserts placed to allow other Hybrids to be mounted directly. It also allows to use standard bolts to mount holds or other products, such as our latest Odyssey fiberglass or Boomramp sets, featuring a central bolt. "
+          },
+          {
+            "name": "name3",
+            "desc": "The panels themselves can be order in with many different custom options, including inserts, texture and color."
+          },
+          {
+            "name": "name4",
+            "quote": "By introducing the Hybrids, we want to allow setters to create even better, wilder, crazier moves; While increasing the lifetime of our products by a major factor, and thus diminishing their carbon footprint."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/Hybrids/productv2.jpg",
+        "paragraphs": [
+          {
+            "title": "Link hybrids, a new PU Range.",
+            "desc": "This new range of Hybrid PU products, is designed to take minimal space while giving you the possibility of breaking up the profile.\nThe multiple combinations allow to easily create different angles, making it easy to fine tune any moves."
+          },
+          {
+            "title": "Textured or not.",
+            "desc": "The wooden panels on the Links can be choosen with or without texture, in a matter of seconds, by simply switching the panel."
+          },
+          {
+            "title": "Compatible across the board.",
+            "desc": "The Links are out of the box designed to perfectly fit onto the existing Sky-balls systems.\nMoreover you can stack most of the Shape riders, Odyssey and Stadium PU products onto them."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/Hybrids/skyball_3.jpg",
+        "paragraphs": [
+          {
+            "title": "Hybrid Fiberglass volumes.",
+            "desc": "Extend product longevity, rediscover the Sky-balls with dual texture and switchable wooden panels."
+          },
+          {
+            "title": "Intercompatible",
+            "desc": "Retain compatibility with the classic Sky-balls and expend your toolbox's content."
+          }
+        ]
+      }
+    },
+    {
+      "type": "VideoScroll",
+      "props": {
+        "src": "videos/LinkHybdride_MP4-O.mp4",
+        "playbackConst": 100,
+        "poster": "videos/Soft_pu_cover.jpg",
+        "interactiveElements": [
+          {
+            "from": 0,
+            "to": 1,
+            "elements": [
+              {
+                "element": "title",
+                "text": "Links",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "100%",
+                  "height": "fit-content",
+                  "left": "0",
+                  "textAlign": "center",
+                  "bottom": "20%",
+                  "fontSize": "4vh",
+                  "textTransform": "uppercase",
+                  "letterSpacing": "0.2rem",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+          {
+            "from": 1.1,
+            "to": 2,
+            "elements": [
+              {
+                "element": "title",
+                "text": "Hybrids",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "100%",
+                  "height": "fit-content",
+                  "left": "0",
+                  "textAlign": "center",
+                  "top": "20%",
+                  "fontSize": "4vh",
+                  "textTransform": "uppercase",
+                  "letterSpacing": "0.2rem",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+
+          {
+            "from": 2.01,
+            "to": 3,
+            "elements": [
+              {
+                "element": "subtitle",
+                "text": "Modular plates",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "auto",
+                  "height": "fit-content",
+                  "left": "5%",
+                  "textAlign": "center",
+                  "bottom": "45%",
+                  "fontSize": "3vh",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+          {
+            "from": 3.01,
+            "to": 3.9,
+            "elements": [
+              {
+                "element": "subtitle",
+                "text": "Multiple bases",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "auto",
+                  "height": "fit-content",
+                  "right": "14%",
+                  "textAlign": "center",
+                  "top": "25%",
+                  "fontSize": "3vh",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+          {
+            "from": 3.91,
+            "to": 5,
+            "elements": [
+              {
+                "element": "subtitle",
+                "text": "Easily replaceable",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "auto",
+                  "height": "fit-content",
+                  "left": "5%",
+                  "textAlign": "center",
+                  "bottom": "35%",
+                  "fontSize": "3vh",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+          {
+            "from": 5.01,
+            "to": 6,
+            "elements": [
+              {
+                "element": "title",
+                "text": "Everlasting possibilities",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "100%",
+                  "height": "fit-content",
+                  "left": "0",
+                  "textAlign": "center",
+                  "bottom": "30%",
+                  "fontSize": "3vh",
+                  "textTransform": "uppercase",
+                  "letterSpacing": "0.2rem",
+                  "color": "#000"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
