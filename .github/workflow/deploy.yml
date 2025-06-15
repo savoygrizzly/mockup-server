@@ -22,7 +22,7 @@ jobs:
           aws-region: eu-central-1
 
       - name: Sync pages
-        run: aws s3 sync pages/ s3://cheeta-media/v2/pages/ --delete
+        run: aws s3 sync pages/ s3://cheeta-blog/pages/ --delete
 
       - name: Invalidate CloudFront cache
-        run: aws cloudfront create-invalidation --distribution-id E2N4B4YSRT1QOV --paths '/v2/pages/*'
+        run: aws cloudfront create-invalidation --distribution-id E1CRA7HA5ACJUS --paths '/pages/*'

@@ -1,0 +1,62 @@
+{
+  "pageName": "Spoons",
+  "pageDesc": "Asymetrical range featuring aesthetic and directional grips.",
+
+  "components": [
+    {
+      "type": "Header",
+      "props": {
+        "title": "Spoons",
+        "slogan": "Compact, asymetrical and aesthetic",
+        "image": "v2/pages/Spoons/cover.jpg",
+        "gradient": "linear-gradient(84deg, rgb(36 77 204) 2%, rgb(39 52 214) 40%, rgb(255 255 255 / 80%) 100%)"
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/Spoons/spoon_6.jpg",
+        "paragraphs": [
+          {
+            "title": "A spoon of asymetry",
+            "desc": "The asymetrical rounded edge of the spoons make them a little bit trickier and demanding for the climbers; while giving the setter more possibilites to create technical problems."
+          },
+          {
+            "title": "Compact, design, maximum usability",
+            "desc": "The Spoons design also make those macro-volumes relatively compact, perfect to minimize occupied space while providing aesthetics and adding dimension to the wall."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "image": "v2/pages/Spoons/spoon_11.jpg",
+        "title": "Directional grips, for directional problems",
+        "paragraphs": [
+          {
+            "name": "name23",
+            "desc": "The spoons are all designed in a way that makes it easier to create directional problems, their elongated shape and open grip helps to provide the setter with better control over the possible movements."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "styles": {
+          "descWrapper": {
+            "order": "-1"
+          }
+        },
+        "image": "v2/pages/Spoons/spoon_9.jpg",
+        "paragraphs": [
+          {
+            "title": "Dual texture for the finish",
+            "desc": "The Spoons are by default coming with dual texture, for a smooth looking finish, and to ensure the setter reatisn control of how the macro is used by climbers."
+          }
+        ]
+      }
+    }
+  ]
+}

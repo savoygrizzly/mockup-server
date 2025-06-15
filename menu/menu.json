@@ -45,12 +45,12 @@
       "title": "Learn More",
       "links": [
         {
-          "to": "/pages/odyssey",
-          "text": "The Odyssey range."
+          "to": "/pages/silex",
+          "text": "Our new Silex range."
         },
         {
-          "to": "/pages/stadium",
-          "text": "Presenting, the Stadium range."
+          "to": "/pages/spoons",
+          "text": "The new Spoon range."
         }
       ]
     }

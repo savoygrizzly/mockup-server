@@ -8,10 +8,13 @@
         "src": "v2/pages/Silex/animEncoded.mp4",
         "playbackConst": 60,
         "poster": "v2/pages/Silex/cover.jpg",
+        "videoStyles": {
+          "maxWidth": "2500px"
+        },
         "interactiveElements": [
           {
             "from": -1,
-            "to": 3,
+            "to": 2.5,
             "elements": [
               {
                 "element": "title",
@@ -24,7 +27,7 @@
                   "height": "fit-content",
                   "left": "0",
                   "textAlign": "center",
-                  "bottom": "30%",
+                  "bottom": "50%",
                   "fontSize": "6vh",
                   "textTransform": "uppercase",
                   "letterSpacing": "0.5rem",
@@ -34,7 +37,31 @@
             ]
           },
           {
-            "from": 4,
+            "from": 2.6,
+            "to": 4,
+            "elements": [
+              {
+                "element": "title",
+                "text": "A new system",
+                "transition": "fadeIn fadeOut",
+                "style": {
+                  "position": "absolute",
+                  "display": "inline-block",
+                  "width": "100%",
+                  "height": "fit-content",
+                  "left": "0",
+                  "textAlign": "center",
+                  "bottom": "20%",
+                  "fontSize": "4vh",
+                  "textTransform": "uppercase",
+                  "letterSpacing": "0.2rem",
+                  "color": "#000"
+                }
+              }
+            ]
+          },
+          {
+            "from": 4.1,
             "to": 6,
             "elements": [
               {
@@ -115,12 +142,41 @@
         "title": "Modern designs, made to fit.",
         "paragraphs": [
           {
-            "name": "name23",
-            "desc": "The new Silex range combines asthetically pleasing modern design with full modularity, providing Routesetters with the tools to please the eye as well as the climber."
+            "name": "name24",
+            "desc": "Dual-textured faces, a variety of angles, a whole new range of possibilities."
           },
           {
-            "name": "name24",
-            "desc": "Dual-texture faces, smooth angles."
+            "name": "name23",
+            "desc": "The new Silex range combines asthetically pleasing modern design with full modularity, providing Routesetters with the tools to please the eye as well as the climber."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/Silex/tomoa.jpg",
+        "paragraphs": [
+          {
+            "title": "All kind of offsets.",
+            "desc": "The Silex range offers tall, short and wide offsets, the volumes can thus be used in any kind of wall profiles."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "styles": {
+          "descWrapper": {
+            "order": "-1"
+          }
+        },
+        "image": "v2/pages/Silex/silex2bis.jpg",
+        "paragraphs": [
+          {
+            "title": "Perfect for any style.",
+            "desc": "Sharper cuts, smoother edges.\n\nSilex volumes are made to suit a wide array of Routesetting styles.\n\nThe Silex are also perfectly pairing with our existing Fiberglass, Plywood and Hybrid ranges enriching even more Routesetters toolboxes."
           }
         ]
       }
