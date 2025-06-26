@@ -1,150 +1,37 @@
 [
   {
-    "type": "VideoScroll",
+    "type": "Hero",
     "props": {
-      "src": "videos/LinkHybdride_MP4-O.mp4",
-      "playbackConst": 700,
-      "poster": "videos/LinkHybdrid_cover.jpg",
-      "interactiveElements": [
+      "title": "Spoons",
+      "link": "/products/Fiberglass%20volumes/2/overview/Spoon",
+      "subtitle": "A spoon of simplicity.",
+      "backgroundImage": "v2/homepage/12-06-2025/spoon_7.jpg",
+      "buttons": [
         {
-          "from": 0,
-          "to": 1,
-          "elements": [
-            {
-              "element": "title",
-              "text": "Links",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "100%",
-                "height": "fit-content",
-                "left": "0",
-                "textAlign": "center",
-                "bottom": "20%",
-                "fontSize": "4vh",
-                "textTransform": "uppercase",
-                "letterSpacing": "0.2rem",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 1.1,
-          "to": 2,
-          "elements": [
-            {
-              "element": "title",
-              "text": "Hybrids",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "100%",
-                "height": "fit-content",
-                "left": "0",
-                "textAlign": "center",
-                "top": "20%",
-                "fontSize": "4vh",
-                "textTransform": "uppercase",
-                "letterSpacing": "0.2rem",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 2.01,
-          "to": 3,
-          "elements": [
-            {
-              "element": "subtitle",
-              "text": "Modular plates",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "auto",
-                "height": "fit-content",
-                "left": "5%",
-                "textAlign": "center",
-                "bottom": "45%",
-                "fontSize": "3vh",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 3.01,
-          "to": 3.9,
-          "elements": [
-            {
-              "element": "subtitle",
-              "text": "Multiple bases",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "auto",
-                "height": "fit-content",
-                "right": "14%",
-                "textAlign": "center",
-                "top": "25%",
-                "fontSize": "3vh",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 3.91,
-          "to": 5,
-          "elements": [
-            {
-              "element": "subtitle",
-              "text": "Easily replaceable",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "auto",
-                "height": "fit-content",
-                "left": "5%",
-                "textAlign": "center",
-                "bottom": "35%",
-                "fontSize": "3vh",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 5.01,
-          "to": 6,
-          "elements": [
-            {
-              "element": "title",
-              "text": "Everlasting possibilities",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "100%",
-                "height": "fit-content",
-                "left": "0",
-                "textAlign": "center",
-                "bottom": "30%",
-                "fontSize": "3vh",
-                "textTransform": "uppercase",
-                "letterSpacing": "0.2rem",
-                "color": "#000"
-              }
-            }
-          ]
+          "text": "Discover",
+          "link": "/products/Fiberglass%20volumes/2/overview/Spoon"
         }
-      ]
+      ],
+      "styles": {
+        "heroStyle": {
+          "display": "flex",
+          "height": "90vh",
+          "flexDirection": "column",
+          "justifyContent": "flex-end",
+          "color": "#fff"
+        },
+        "heroUnitStyle": {
+          "position": "absolute",
+          "width": "100%",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-end",
+          "alignItems": "center",
+          "bottom": "27%",
+          "left": "0",
+          "height": "auto"
+        }
+      }
     }
   },
   {
