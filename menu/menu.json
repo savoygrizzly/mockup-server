@@ -47,10 +47,6 @@
         {
           "to": "/pages/silex",
           "text": "Our new Silex range."
-        },
-        {
-          "to": "/pages/spoons",
-          "text": "The new Spoon range."
         }
       ]
     }
