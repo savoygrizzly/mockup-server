@@ -1,37 +1,155 @@
 [
   {
-    "type": "Hero",
+    "type": "VideoScroll",
     "props": {
-      "title": "Spoon",
-      "link": "/pages/spoons",
-      "subtitle": "A spoon of simplicity. \n Coming soon.",
-      "backgroundImage": "v2/homepage/12-06-2025/spoon_7.jpg",
-      "buttons": [
+      "src": "videos/cam_encoded_clean.mp4",
+      "playbackConst": 700,
+      "poster": "videos/camemberts_cover.jpg",
+      "interactiveElements": [
         {
-          "text": "Learn more",
-          "link": "/pages/spoons"
-        }
-      ],
-      "styles": {
-        "heroStyle": {
-          "display": "flex",
-          "height": "90vh",
-          "flexDirection": "column",
-          "justifyContent": "flex-end",
-          "color": "#fff"
+          "from": 0,
+          "to": 2,
+          "elements": [
+            {
+              "element": "title",
+              "text": "Camemberts",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "100%",
+                "height": "fit-content",
+                "left": "0",
+                "textAlign": "center",
+                "top": "18%",
+                "fontSize": "4vw",
+                "textTransform": "uppercase",
+                "letterSpacing": "0.2rem",
+                "color": "#000"
+              }
+            }
+          ]
         },
-        "heroUnitStyle": {
-          "position": "absolute",
-          "width": "100%",
-          "display": "flex",
-          "flexDirection": "column",
-          "justifyContent": "flex-end",
-          "alignItems": "center",
-          "bottom": "27%",
-          "left": "0",
-          "height": "auto"
+        {
+          "from": 2.1,
+          "to": 4,
+          "elements": [
+            {
+              "element": "subtitle",
+              "text": "Modular",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "100%",
+                "height": "fit-content",
+                "left": "-15%",
+                "textAlign": "center",
+                "top": "45%",
+                "fontSize": "3vw",
+                "textTransform": "uppercase",
+                "letterSpacing": "0.2rem",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+        {
+          "from": 4.1,
+          "to": 6,
+          "elements": [
+            {
+              "element": "subtitle",
+              "text": "Interchangeable",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "100%",
+                "height": "fit-content",
+                "left": "-5%",
+                "textAlign": "center",
+                "bottom": "40%",
+                "fontSize": "3vw",
+                "textTransform": "uppercase",
+                "letterSpacing": "0.2rem",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+        {
+          "from": 6.1,
+          "to": 8.5,
+          "elements": [
+            {
+              "element": "subtitle",
+              "text": "1248 possible combinations",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "100%",
+                "height": "fit-content",
+                "left": "0%",
+                "textAlign": "center",
+                "bottom": "25%",
+                "fontSize": "3vw",
+                "textTransform": "uppercase",
+                "letterSpacing": "0.2rem",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+        {
+          "from": 8.6,
+          "to": 15,
+          "elements": [
+            {
+              "element": "title",
+              "text": "Where legacy meets innovation",
+              "transition": "fadeIn fadeOut",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "80%",
+                "height": "fit-content",
+                "left": "10%",
+                "textAlign": "center",
+                "top": "50%",
+                "fontSize": "3vw",
+                "textTransform": "uppercase",
+                "letterSpacing": "0.2rem",
+                "color": "#000"
+              }
+            }
+          ]
+        },
+        {
+          "from": 8.6,
+          "to": 15,
+          "elements": [
+            {
+              "element": "button",
+              "text": "Order now",
+              "href": "/products/Hybrids/43/overview/Camembert",
+              "transition": "fadeIn fadeOut",
+              "class": "core_link_button core_link_button-feedback",
+              "style": {
+                "position": "absolute",
+                "display": "inline-block",
+                "width": "100%",
+                "paddingBottom": "40px",
+                "height": "fit-content",
+                "left": "0",
+                "textAlign": "center",
+                "bottom": "8%"
+              }
+            }
+          ]
         }
-      }
+      ]
     }
   },
   {

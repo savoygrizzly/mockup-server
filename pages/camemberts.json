@@ -1,0 +1,66 @@
+{
+  "pageName": "Camemberts",
+  "pageDesc": "Where legacy meets innovation",
+  "components": [
+    {
+      "type": "Header",
+      "props": {
+        "title": "Camemberts",
+        "slogan": "Where legacy meets innovation",
+        "image": "v2/pages/Camemberts/cover.jpg",
+        "gradient": "linear-gradient(84deg, rgb(0 166 255) 20%, rgb(242 63 58) 40%, rgb(242 63 58) 100%)"
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/Camemberts/hero1.jpg",
+        "paragraphs": [
+          {
+            "title": "Polyvalent Simplicity",
+            "desc": "The new Camemberts hybrid range offers 12 Bases and 32 Holds, making it easy to easily switch grips, and add dimension and a twist to routes and problems. "
+          },
+          {
+            "title": "Wide range of grips",
+            "desc": "The camemberts Holds offer a varied range of grips, from pockets, to crimps and even pebble shaped sloeprs, ensuring re-usability and versitality with each combination."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ImageParagraph",
+      "props": {
+        "image": "v2/pages/Camemberts/paragraph1.jpg",
+        "title": "Sky-ball compatibles",
+        "paragraphs": [
+          {
+            "name": "name23",
+            "title": "Sky-ball compatibles",
+            "desc": "The camemberts bases are made to fit onto our existing Sky-ball range, further enhancing the range of possibilities, and making their usage hassle free."
+          },
+          {
+            "title": "Solidity in mind",
+            "desc": "The bases of the Camemberts are made with our unique thermoplastic, tested strong and durable, ensuring a long life and reliable performance, withstanding the rigors of routesetting and long term use."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Hero",
+      "props": {
+        "styles": {
+          "descWrapper": {
+            "order": "-1"
+          }
+        },
+        "image": "v2/pages/Camemberts/hero2.jpg",
+        "paragraphs": [
+          {
+            "title": "Design",
+            "desc": "With the unique twist of styles combinations offered between the bases and holds, the new camemberts will fit seamlessly within setting color styles."
+          }
+        ]
+      }
+    }
+  ]
+}
