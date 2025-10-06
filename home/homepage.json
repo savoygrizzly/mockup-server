@@ -184,15 +184,15 @@
                 "link": "/products/Wooden%20volumes/3/overview/Silex"
               }
             ],
-            "backgroundImage": "v2/homepage/12-06-2025/sliceSilex.jpg"
+            "backgroundImage": "v2/homepage/06-10-2025/sliceSilex.jpg"
           }
         },
         {
           "type": "Hero",
           "props": {
-            "title": "The Cheeta vision.",
-            "subtitle": "What makes the difference.",
-            "link": "/pages/vision",
+            "title": "Spoon",
+            "subtitle": "A spoon of simplicity.",
+            "link": "/pages/spoons",
             "styles": {
               "heroStyle": {
                 "display": "flex",
@@ -213,7 +213,7 @@
                 "link": "/pages/vision"
               }
             ],
-            "backgroundImage": "v2/homepage/12-06-2025/vision.jpg"
+            "backgroundImage": "v2/homepage/06-10-2025/spoon_crop.jpg"
           }
         },
         {
@@ -242,7 +242,7 @@
                 "link": "/products/Fiberglass%20volumes/2/overview/Slide"
               }
             ],
-            "backgroundImage": "v2/homepage/12-06-2025/slides.jpg"
+            "backgroundImage": "v2/homepage/06-10-2025/slides.jpg"
           }
         },
         {
@@ -272,7 +272,7 @@
                 "link": "/overview/Hybrids/43"
               }
             ],
-            "backgroundImage": "v2/homepage/12-06-2025/LinkHybrid.jpg"
+            "backgroundImage": "v2/homepage/06-10-2025/LinkHybrid.jpg"
           }
         }
       ]
@@ -296,7 +296,7 @@
             "text": "Reach new heights",
             "linkClass": "core_link_button-feedback"
           },
-          "backgroundImage": "v2/homepage/12-06-2025/sky_series.jpg",
+          "backgroundImage": "v2/homepage/06-10-2025/sky_series.jpg",
           "styles": {
             "unit": {
               "backgroundColor": "white",
@@ -313,7 +313,7 @@
             "text": "Let the games begin",
             "linkClass": "core_link_button-feedback"
           },
-          "backgroundImage": "v2/homepage/12-06-2025/stadium3.jpg",
+          "backgroundImage": "v2/homepage/06-10-2025/stadium3.jpg",
           "styles": {
             "unit": {
               "backgroundColor": "white"
@@ -329,7 +329,7 @@
             "text": "Our Soft-PU ranges",
             "linkClass": "core_link_button-feedback"
           },
-          "backgroundImage": "v2/homepage/12-06-2025/softPu.jpg",
+          "backgroundImage": "v2/homepage/06-10-2025/softPu.jpg",
           "styles": {
             "unit": {
               "backgroundColor": "white",
