@@ -3,12 +3,11 @@
   "pageDesc": "Where legacy meets innovation",
   "components": [
     {
-      "type": "Header",
+      "type": "YTHeader",
       "props": {
         "title": "Camemberts",
         "slogan": "Where legacy meets innovation",
-        "image": "v2/pages/Camemberts/cover.jpg",
-        "gradient": "linear-gradient(84deg, rgb(0 166 255) 20%, rgb(242 63 58) 40%, rgb(242 63 58) 100%)"
+        "videoId":"Et1C8ABykPg"
       }
     },
     {

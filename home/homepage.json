@@ -1,343 +1,226 @@
 [
-  {
-    "type": "VideoScroll",
-    "props": {
-      "src": "videos/cam_encoded_clean.mp4",
-      "playbackConst": 700,
-      "poster": "videos/camemberts_cover.jpg",
-      "interactiveElements": [
-        {
-          "from": 0,
-          "to": 2,
-          "elements": [
-            {
-              "element": "title",
-              "text": "Camemberts",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "100%",
-                "height": "fit-content",
-                "left": "0",
-                "textAlign": "center",
-                "top": "18%",
-                "fontSize": "4vw",
-                "textTransform": "uppercase",
-                "letterSpacing": "0.2rem",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 2.1,
-          "to": 4,
-          "elements": [
-            {
-              "element": "subtitle",
-              "text": "Modular",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "100%",
-                "height": "fit-content",
-                "left": "-15%",
-                "textAlign": "center",
-                "top": "45%",
-                "fontSize": "3vw",
-                "textTransform": "uppercase",
-                "letterSpacing": "0.2rem",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 4.1,
-          "to": 6,
-          "elements": [
-            {
-              "element": "subtitle",
-              "text": "Interchangeable",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "100%",
-                "height": "fit-content",
-                "left": "-5%",
-                "textAlign": "center",
-                "bottom": "40%",
-                "fontSize": "3vw",
-                "textTransform": "uppercase",
-                "letterSpacing": "0.2rem",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 6.1,
-          "to": 8.5,
-          "elements": [
-            {
-              "element": "subtitle",
-              "text": "1248 possible combinations",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "100%",
-                "height": "fit-content",
-                "left": "0%",
-                "textAlign": "center",
-                "bottom": "25%",
-                "fontSize": "3vw",
-                "textTransform": "uppercase",
-                "letterSpacing": "0.2rem",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 8.6,
-          "to": 15,
-          "elements": [
-            {
-              "element": "title",
-              "text": "Where legacy meets innovation",
-              "transition": "fadeIn fadeOut",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "80%",
-                "height": "fit-content",
-                "left": "10%",
-                "textAlign": "center",
-                "top": "50%",
-                "fontSize": "3vw",
-                "textTransform": "uppercase",
-                "letterSpacing": "0.2rem",
-                "color": "#000"
-              }
-            }
-          ]
-        },
-        {
-          "from": 8.6,
-          "to": 15,
-          "elements": [
-            {
-              "element": "button",
-              "text": "Order now",
-              "href": "/products/Hybrids/43/overview/Camembert",
-              "transition": "fadeIn fadeOut",
-              "class": "core_link_button core_link_button-feedback",
-              "style": {
-                "position": "absolute",
-                "display": "inline-block",
-                "width": "100%",
-                "paddingBottom": "40px",
-                "height": "fit-content",
-                "left": "0",
-                "textAlign": "center",
-                "bottom": "8%"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "type": "HeroGrid",
-    "props": {
-      "children": [
-        {
-          "type": "Hero",
-          "props": {
-            "title": "Silex",
-            "subtitle": "Design and modularity",
-            "description": "Discover now",
-            "link": "/products/Wooden%20volumes/3/overview/Silex",
-            "styles": {
-              "heroStyle": {
-                "display": "flex",
-                "flexDirection": "column",
-                "justifyContent": "flex-end",
-                "color": "#fff"
-              },
-              "heroUnitStyle": {
-                "display": "flex",
-                "flexDirection": "column",
-                "justifyContent": "flex-end",
-                "alignItems": "center",
-                "color": "#fff"
-              }
-            },
-            "buttons": [
-              {
-                "text": "Shop now",
-                "link": "/products/Wooden%20volumes/3/overview/Silex"
-              }
-            ],
-            "backgroundImage": "v2/homepage/06-10-2025/sliceSilex.jpg"
-          }
-        },
-        {
-          "type": "Hero",
-          "props": {
-            "title": "Spoon",
-            "subtitle": "A spoon of simplicity.",
-            "link": "/pages/spoons",
-            "styles": {
-              "heroStyle": {
-                "display": "flex",
-                "flexDirection": "column",
-                "justifyContent": "flex-end",
-                "color": "#fff"
-              },
-              "heroUnitStyle": {
-                "display": "flex",
-                "flexDirection": "column",
-                "justifyContent": "flex-end",
-                "alignItems": "center"
-              }
-            },
-            "buttons": [
-              {
-                "text": "Learn more",
-                "link": "/pages/vision"
-              }
-            ],
-            "backgroundImage": "v2/homepage/06-10-2025/spoon_crop.jpg"
-          }
-        },
-        {
-          "type": "Hero",
-          "props": {
-            "title": "Slides",
-            "subtitle": "Let the movement flow",
-            "link": "/products/Fiberglass%20volumes/2/overview/Slide",
-            "styles": {
-              "heroStyle": {
-                "display": "flex",
-                "flexDirection": "column",
-                "justifyContent": "flex-end",
-                "color": "#fff"
-              },
-              "heroUnitStyle": {
-                "display": "flex",
-                "flexDirection": "column",
-                "justifyContent": "flex-end",
-                "alignItems": "center"
-              }
-            },
-            "buttons": [
-              {
-                "text": "Get yours",
-                "link": "/products/Fiberglass%20volumes/2/overview/Slide"
-              }
-            ],
-            "backgroundImage": "v2/homepage/06-10-2025/slides.jpg"
-          }
-        },
-        {
-          "type": "Hero",
-          "props": {
-            "title": "Link Hybrids",
-            "subtitle": "A new kind of holds",
-            "description": "Now available",
-            "link": "/overview/Hybrids/43",
-            "styles": {
-              "heroStyle": {
-                "display": "flex",
-                "flexDirection": "column",
-                "justifyContent": "flex-end",
-                "color": "#fff"
-              },
-              "heroUnitStyle": {
-                "display": "flex",
-                "flexDirection": "column",
-                "justifyContent": "flex-end",
-                "alignItems": "center"
-              }
-            },
-            "buttons": [
-              {
-                "text": "Shop now",
-                "link": "/overview/Hybrids/43"
-              }
-            ],
-            "backgroundImage": "v2/homepage/06-10-2025/LinkHybrid.jpg"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "Slider",
-    "props": {
-      "styles": {
-        "slider": {
-          "height": "40vh"
-        }
-      },
-      "slides": [
-        {
-          "name": "Sky-Series",
-          "description": "The latest addon to our Sky-ball family.",
-          "title": "Sky-Series",
-          "link": "/products/Fiberglass%20volumes/2/overview/Sky%20Serie",
-          "button": {
-            "text": "Reach new heights",
-            "linkClass": "core_link_button-feedback"
-          },
-          "backgroundImage": "v2/homepage/06-10-2025/sky_series.jpg",
-          "styles": {
-            "unit": {
-              "backgroundColor": "white",
-              "color": "#fff"
-            }
-          }
-        },
-        {
-          "name": "Stadium",
-          "description": "Discover the new range.",
-          "title": "Stadium",
-          "link": "/products/Stadium/1/overview/Stadium",
-          "button": {
-            "text": "Let the games begin",
-            "linkClass": "core_link_button-feedback"
-          },
-          "backgroundImage": "v2/homepage/06-10-2025/stadium3.jpg",
-          "styles": {
-            "unit": {
-              "backgroundColor": "white"
-            }
-          }
-        },
-        {
-          "name": "Soft-PU-Holds",
-          "description": "Holds for everyone.",
-          "title": "Soft-PU Holds",
-          "link": "/overview/Soft PU-Holds/42",
-          "button": {
-            "text": "Our Soft-PU ranges",
-            "linkClass": "core_link_button-feedback"
-          },
-          "backgroundImage": "v2/homepage/06-10-2025/softPu.jpg",
-          "styles": {
-            "unit": {
-              "backgroundColor": "white",
-              "color": "#fff"
-            }
-          }
-        }
-      ]
-    }
-  }
+	{
+		"type": "Hero",
+		"props": {
+			"title": "Camemberts",
+			"link": "/products/Hybrids/43/overview/Camembert",
+			"subtitle": "Where legacy meets innovation",
+			"backgroundImage": "v2/homepage/12-06-2025/arken_cheeta_camembert_4491_small-assembled.jpg",
+			"backgroundImageMobile": "v2/homepage/12-06-2025/arken_cheeta_camembert_4504_small.jpg",
+			"buttons": [
+				{
+					"text": "Order now",
+					"link": "/products/Hybrids/43/overview/Camembert"
+				}
+			],
+			"styles": {
+				"heroStyle": {
+					"display": "flex",
+					"height": "90vh",
+					"flexDirection": "column",
+					"justifyContent": "flex-end",
+					"color": "#000"
+				},
+				"heroUnitStyle": {
+					"position": "absolute",
+					"width": "100%",
+					"display": "flex",
+					"flexDirection": "column",
+					"justifyContent": "flex-end",
+					"alignItems": "center",
+					"bottom": "27%",
+					"left": "0",
+					"height": "auto"
+				}
+			}
+		}
+	},
+	{
+		"type": "HeroGrid",
+		"props": {
+			"children": [
+				{
+					"type": "Hero",
+					"props": {
+						"title": "Silex",
+						"subtitle": "Design and modularity",
+						"description": "Discover now",
+						"link": "/products/Wooden%20volumes/3/overview/Silex",
+						"styles": {
+							"heroStyle": {
+								"display": "flex",
+								"flexDirection": "column",
+								"justifyContent": "flex-end",
+								"color": "#fff"
+							},
+							"heroUnitStyle": {
+								"display": "flex",
+								"flexDirection": "column",
+								"justifyContent": "flex-end",
+								"alignItems": "center",
+								"color": "#fff"
+							}
+						},
+						"buttons": [
+							{
+								"text": "Shop now",
+								"link": "/products/Wooden%20volumes/3/overview/Silex"
+							}
+						],
+						"backgroundImage": "v2/homepage/06-10-2025/sliceSilex.jpg"
+					}
+				},
+				{
+					"type": "Hero",
+					"props": {
+						"title": "Spoon",
+						"subtitle": "A spoon of simplicity.",
+						"link": "/pages/spoons",
+						"styles": {
+							"heroStyle": {
+								"display": "flex",
+								"flexDirection": "column",
+								"justifyContent": "flex-end",
+								"color": "#fff"
+							},
+							"heroUnitStyle": {
+								"display": "flex",
+								"flexDirection": "column",
+								"justifyContent": "flex-end",
+								"alignItems": "center"
+							}
+						},
+						"buttons": [
+							{
+								"text": "Learn more",
+								"link": "/pages/vision"
+							}
+						],
+						"backgroundImage": "v2/homepage/06-10-2025/spoon_crop.jpg"
+					}
+				},
+				{
+					"type": "Hero",
+					"props": {
+						"title": "Slides",
+						"subtitle": "Let the movement flow",
+						"link": "/products/Fiberglass%20volumes/2/overview/Slide",
+						"styles": {
+							"heroStyle": {
+								"display": "flex",
+								"flexDirection": "column",
+								"justifyContent": "flex-end",
+								"color": "#fff"
+							},
+							"heroUnitStyle": {
+								"display": "flex",
+								"flexDirection": "column",
+								"justifyContent": "flex-end",
+								"alignItems": "center"
+							}
+						},
+						"buttons": [
+							{
+								"text": "Get yours",
+								"link": "/products/Fiberglass%20volumes/2/overview/Slide"
+							}
+						],
+						"backgroundImage": "v2/homepage/06-10-2025/slides.jpg"
+					}
+				},
+				{
+					"type": "Hero",
+					"props": {
+						"title": "Link Hybrids",
+						"subtitle": "A new kind of holds",
+						"description": "Now available",
+						"link": "/overview/Hybrids/43",
+						"styles": {
+							"heroStyle": {
+								"display": "flex",
+								"flexDirection": "column",
+								"justifyContent": "flex-end",
+								"color": "#fff"
+							},
+							"heroUnitStyle": {
+								"display": "flex",
+								"flexDirection": "column",
+								"justifyContent": "flex-end",
+								"alignItems": "center"
+							}
+						},
+						"buttons": [
+							{
+								"text": "Shop now",
+								"link": "/overview/Hybrids/43"
+							}
+						],
+						"backgroundImage": "v2/homepage/06-10-2025/LinkHybrid.jpg"
+					}
+				}
+			]
+		}
+	},
+	{
+		"type": "Slider",
+		"props": {
+			"styles": {
+				"slider": {
+					"height": "40vh"
+				}
+			},
+			"slides": [
+				{
+					"name": "Sky-Series",
+					"description": "The latest addon to our Sky-ball family.",
+					"title": "Sky-Series",
+					"link": "/products/Fiberglass%20volumes/2/overview/Sky%20Serie",
+					"button": {
+						"text": "Reach new heights",
+						"linkClass": "core_link_button-feedback"
+					},
+					"backgroundImage": "v2/homepage/06-10-2025/sky_series.jpg",
+					"styles": {
+						"unit": {
+							"backgroundColor": "white",
+							"color": "#fff"
+						}
+					}
+				},
+				{
+					"name": "Stadium",
+					"description": "Discover the new range.",
+					"title": "Stadium",
+					"link": "/products/Stadium/1/overview/Stadium",
+					"button": {
+						"text": "Let the games begin",
+						"linkClass": "core_link_button-feedback"
+					},
+					"backgroundImage": "v2/homepage/06-10-2025/stadium3.jpg",
+					"styles": {
+						"unit": {
+							"backgroundColor": "white"
+						}
+					}
+				},
+				{
+					"name": "Soft-PU-Holds",
+					"description": "Holds for everyone.",
+					"title": "Soft-PU Holds",
+					"link": "/overview/Soft PU-Holds/42",
+					"button": {
+						"text": "Our Soft-PU ranges",
+						"linkClass": "core_link_button-feedback"
+					},
+					"backgroundImage": "v2/homepage/06-10-2025/softPu.jpg",
+					"styles": {
+						"unit": {
+							"backgroundColor": "white",
+							"color": "#fff"
+						}
+					}
+				}
+			]
+		}
+	}
 ]
