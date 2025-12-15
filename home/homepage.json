@@ -3,14 +3,14 @@
 		"type": "Hero",
 		"props": {
 			"title": "Camemberts",
-			"link": "/products/Hybrids/43/overview/Camembert",
+			"link": "/pages/camemberts",
 			"subtitle": "Where legacy meets innovation",
 			"backgroundImage": "v2/homepage/12-06-2025/arken_cheeta_camembert_4491_small-assembled.jpg",
 			"backgroundImageMobile": "v2/homepage/12-06-2025/arken_cheeta_camembert_4504_small.jpg",
 			"buttons": [
 				{
-					"text": "Order now",
-					"link": "/products/Hybrids/43/overview/Camembert"
+					"text": "Learn more",
+					"link": "/pages/camemberts"
 				}
 			],
 			"styles": {
@@ -19,7 +19,8 @@
 					"height": "90vh",
 					"flexDirection": "column",
 					"justifyContent": "flex-end",
-					"color": "#000"
+					"color": "#000",
+					"marginBottom": "var(--grid-gap)"
 				},
 				"heroUnitStyle": {
 					"position": "absolute",
@@ -28,7 +29,7 @@
 					"flexDirection": "column",
 					"justifyContent": "flex-end",
 					"alignItems": "center",
-					"bottom": "27%",
+					"bottom": "20%",
 					"left": "0",
 					"height": "auto"
 				}
