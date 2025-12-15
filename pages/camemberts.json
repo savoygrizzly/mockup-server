@@ -1,65 +1,218 @@
 {
-  "pageName": "Camemberts",
-  "pageDesc": "Where legacy meets innovation",
-  "components": [
-    {
-      "type": "YTHeader",
-      "props": {
-        "title": "Camemberts",
-        "slogan": "Where legacy meets innovation",
-        "videoId":"Et1C8ABykPg"
-      }
-    },
-    {
-      "type": "ImageParagraph",
-      "props": {
-        "image": "v2/pages/Camemberts/hero1.jpg",
-        "paragraphs": [
-          {
-            "title": "Polyvalent Simplicity",
-            "desc": "The new Camemberts hybrid range revisits the concept of removable and adjustable discs, offering 12 glossy, transparent Bases and 32 Holds, making it easy to switch grips, add dimension, and fine-tunes routes and boulder problems."
-          },
-          {
-            "title": "Wide range of grips",
-            "desc": "The Camemberts Holds provide a varied selection of grips, from pockets to crimps and even pebble-shaped slopers, ensuring reusability and versatility with each combination."
-          }
-        ]
-      }
-    },
-    {
-      "type": "ImageParagraph",
-      "props": {
-        "image": "v2/pages/Camemberts/paragraph1.jpg",
-        "title": "Sky-ball compatibles",
-        "paragraphs": [
-          {
-            "name": "name23",
-            "title": "Sky-ball compatibles",
-            "desc": "The Bases are designed to fit onto our famous Sky-base range, further expanding the possibilities and making their combinations hassle-free."
-          },
-          {
-            "title": "Solidity in mind",
-            "desc": "The Bases of the Camemberts are made from our unique thermoplastic, tested for strength and durability, ensuring long-lasting performance and reliability, even under the rigors of route setting and long-term use."
-          }
-        ]
-      }
-    },
-    {
-      "type": "Hero",
-      "props": {
-        "styles": {
-          "descWrapper": {
-            "order": "-1"
-          }
-        },
-        "image": "v2/pages/Camemberts/hero2.jpg",
-        "paragraphs": [
-          {
-            "title": "Design",
-            "desc": "With the unique style combinations offered by the Bases and Holds, the new Camemberts series will seamlessly integrate on the wall, and adding a unique touch of modernity."
-          }
-        ]
-      }
-    }
-  ]
+	"pageName": "Camemberts",
+	"pageDesc": "Where legacy meets innovation",
+	"components": [
+		{
+			"type": "YTHeader",
+			"props": {
+				"title": "Camemberts",
+				"slogan": "Where legacy meets innovation",
+				"videoId": "Et1C8ABykPg"
+			}
+		},
+		{
+			"type": "ImageParagraph",
+			"props": {
+				"image": "v2/pages/Camemberts/hero1.jpg",
+				"paragraphs": [
+					{
+						"title": "Polyvalent Simplicity",
+						"desc": "The new Camemberts hybrid range revisits the concept of removable and adjustable discs, offering 12 glossy, transparent Bases and 32 Holds, making it easy to switch grips, add dimension, and fine-tunes routes and boulder problems."
+					},
+					{
+						"title": "Wide range of grips",
+						"desc": "The Camemberts Holds provide a varied selection of grips, from pockets to crimps and even pebble-shaped slopers, ensuring reusability and versatility with each combination."
+					}
+				]
+			}
+		},
+		{
+			"type": "ImageParagraph",
+			"props": {
+				"image": "v2/pages/Camemberts/paragraph1.jpg",
+				"title": "Sky-ball compatibles",
+				"paragraphs": [
+					{
+						"name": "name23",
+						"title": "Sky-ball compatibles",
+						"desc": "The Bases are designed to fit onto our famous Sky-base range, further expanding the possibilities and making their combinations hassle-free."
+					},
+					{
+						"title": "Solidity in mind",
+						"desc": "The Bases of the Camemberts are made from our unique thermoplastic, tested for strength and durability, ensuring long-lasting performance and reliability, even under the rigors of route setting and long-term use."
+					}
+				]
+			}
+		},
+		{
+			"type": "Hero",
+			"props": {
+				"styles": {
+					"descWrapper": {
+						"order": "-1"
+					}
+				},
+				"image": "v2/pages/Camemberts/hero2.jpg",
+				"paragraphs": [
+					{
+						"title": "Design",
+						"desc": "With the unique style combinations offered by the Bases and Holds, the new Camemberts series will seamlessly integrate on the wall, and adding a unique touch of modernity."
+					}
+				]
+			}
+		},
+		{
+			"type": "VideoScroll",
+			"props": {
+				"src": "videos/cam_encoded_clean.mp4",
+				"playbackConst": 700,
+				"poster": "videos/camemberts_cover.jpg",
+				"interactiveElements": [
+					{
+						"from": 0,
+						"to": 2,
+						"elements": [
+							{
+								"element": "title",
+								"text": "Camemberts",
+								"transition": "fadeIn fadeOut",
+								"style": {
+									"position": "absolute",
+									"display": "inline-block",
+									"width": "100%",
+									"height": "fit-content",
+									"left": "0",
+									"textAlign": "center",
+									"top": "18%",
+									"fontSize": "4vw",
+									"textTransform": "uppercase",
+									"letterSpacing": "0.2rem",
+									"color": "#000"
+								}
+							}
+						]
+					},
+					{
+						"from": 2.1,
+						"to": 4,
+						"elements": [
+							{
+								"element": "subtitle",
+								"text": "Modular",
+								"transition": "fadeIn fadeOut",
+								"style": {
+									"position": "absolute",
+									"display": "inline-block",
+									"width": "100%",
+									"height": "fit-content",
+									"left": "-15%",
+									"textAlign": "center",
+									"top": "45%",
+									"fontSize": "3vw",
+									"textTransform": "uppercase",
+									"letterSpacing": "0.2rem",
+									"color": "#000"
+								}
+							}
+						]
+					},
+					{
+						"from": 4.1,
+						"to": 6,
+						"elements": [
+							{
+								"element": "subtitle",
+								"text": "Interchangeable",
+								"transition": "fadeIn fadeOut",
+								"style": {
+									"position": "absolute",
+									"display": "inline-block",
+									"width": "100%",
+									"height": "fit-content",
+									"left": "-5%",
+									"textAlign": "center",
+									"bottom": "40%",
+									"fontSize": "3vw",
+									"textTransform": "uppercase",
+									"letterSpacing": "0.2rem",
+									"color": "#000"
+								}
+							}
+						]
+					},
+					{
+						"from": 6.1,
+						"to": 8.5,
+						"elements": [
+							{
+								"element": "subtitle",
+								"text": "1248 possible combinations",
+								"transition": "fadeIn fadeOut",
+								"style": {
+									"position": "absolute",
+									"display": "inline-block",
+									"width": "100%",
+									"height": "fit-content",
+									"left": "0%",
+									"textAlign": "center",
+									"bottom": "25%",
+									"fontSize": "3vw",
+									"textTransform": "uppercase",
+									"letterSpacing": "0.2rem",
+									"color": "#000"
+								}
+							}
+						]
+					},
+					{
+						"from": 8.6,
+						"to": 15,
+						"elements": [
+							{
+								"element": "title",
+								"text": "Where legacy meets innovation",
+								"transition": "fadeIn fadeOut",
+								"style": {
+									"position": "absolute",
+									"display": "inline-block",
+									"width": "80%",
+									"height": "fit-content",
+									"left": "10%",
+									"textAlign": "center",
+									"top": "50%",
+									"fontSize": "3vw",
+									"textTransform": "uppercase",
+									"letterSpacing": "0.2rem",
+									"color": "#000"
+								}
+							}
+						]
+					},
+					{
+						"from": 8.6,
+						"to": 15,
+						"elements": [
+							{
+								"element": "button",
+								"text": "Order now",
+								"href": "/products/Hybrids/43/overview/Camembert",
+								"transition": "fadeIn fadeOut",
+								"class": "core_link_button core_link_button-feedback",
+								"style": {
+									"position": "absolute",
+									"display": "inline-block",
+									"width": "100%",
+									"paddingBottom": "40px",
+									"height": "fit-content",
+									"left": "0",
+									"textAlign": "center",
+									"bottom": "8%"
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	]
 }
