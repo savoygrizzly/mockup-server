@@ -1,102 +1,125 @@
 {
-  "Holds": {
-    "menu": {
-      "title": "Our Holds",
-      "links": [
-        {
-          "to": "/overview/Holds/1",
-          "text": "PU-Holds"
-        },
-        {
-          "to": "/overview/Soft%20PU-Holds/42",
-          "text": "Soft PU-Holds"
-        }
-      ]
-    },
-    "articles": {
-      "title": "Learn More",
-      "links": [
-        {
-          "to": "/pages/odyssey",
-          "text": "The Odyssey range."
-        },
-        {
-          "to": "/pages/stadium",
-          "text": "Presenting, the Stadium range."
-        }
-      ]
-    }
-  },
-  "Volumes": {
-    "menu": {
-      "title": "Our Volumes",
-      "links": [
-        {
-          "to": "/overview/Fiberglass%20volumes/2",
-          "text": "Fiberglass volumes"
-        },
-        {
-          "to": "/overview/Wooden%20volumes/3",
-          "text": "Wooden volumes"
-        }
-      ]
-    },
-    "articles": {
-      "title": "Learn More",
-      "links": [
-        {
-          "to": "/pages/silex",
-          "text": "Our new Silex range."
-        }
-      ]
-    }
-  },
-  "Hybrids": {
-    "menu": {
-      "title": "Our Hybrid products",
-      "links": [
-        {
-          "to": "/products/Hybrids/43/overview/Camembert",
-          "text": "Camemberts"
-        },
-        {
-          "to": "/overview/Hybrids/43",
-          "text": "Hybrids"
-        }
-      ]
-    },
-    "articles": {
-      "title": "Learn More",
-      "links": [
-        {
-          "to": "/pages/link_hybrids",
-          "text": "Discover the Link Hybrids"
-        },
-        {
-          "to": "/pages/camemberts",
-          "text": "Discover the camemberts"
-        }
-      ]
-    }
-  },
-  "About": {
-    "menu": {
-      "title": "Discover",
-      "links": [
-        {
-          "to": "/pages/vision",
-          "text": "Our vision"
-        }
-      ]
-    },
-    "articles": {
-      "title": "Learn More",
-      "links": [
-        {
-          "to": "/pages/about",
-          "text": "Our story"
-        }
-      ]
-    }
-  }
+	"Holds": {
+		"menu": {
+			"title": "Our Holds",
+			"links": [
+				{
+					"to": "/overview/Holds/1",
+					"text": "PU"
+				},
+				{
+					"to": "/overview/Soft%20PU-Holds/42",
+					"text": "Soft PU"
+				}
+			]
+		},
+		"articles": {
+			"title": "Learn More",
+			"links": [
+				{
+					"to": "/pages/odyssey",
+					"text": "The Odyssey range."
+				},
+				{
+					"to": "/pages/stadium",
+					"text": "Presenting, the Stadium range."
+				}
+			]
+		}
+	},
+	"Volumes": {
+		"menu": {
+			"title": "Our Volumes",
+			"links": [
+				{
+					"to": "/overview/Fiberglass%20volumes/2",
+					"text": "Fiberglass"
+				},
+				{
+					"to": "/overview/Wooden%20volumes/3",
+					"text": "Plywood"
+				}
+			]
+		},
+		"articles": {
+			"title": "Learn More",
+			"links": [
+				{
+					"to": "/pages/silex",
+					"text": "Our new Silex range."
+				}
+			]
+		}
+	},
+	"Hybrids": {
+		"menu": {
+			"title": "Our Hybrid products",
+			"links": [
+				{
+					"to": "/products/Hybrids/43/overview/Camembert",
+					"text": "Camemberts"
+				},
+				{
+					"to": "/products/Hybrids/43/overview/Link%20Hybrid",
+					"text": "Link"
+				},
+				{
+					"to": "/products/Hybrids/43/overview/Sky-Base",
+					"text": "Sky-Base"
+				}
+			]
+		},
+		"articles": {
+			"title": "Learn More",
+			"links": [
+				{
+					"to": "/pages/link_hybrids",
+					"text": "Discover the Link Hybrids"
+				},
+				{
+					"to": "/pages/camemberts",
+					"text": "Discover the camemberts"
+				}
+			]
+		}
+	},
+	"About": {
+		"menu": {
+			"title": "Discover",
+			"links": [
+				{
+					"to": "/pages/vision",
+					"text": "Our vision"
+				}
+			]
+		},
+		"articles": {
+			"title": "Learn More",
+			"links": [
+				{
+					"to": "/pages/about",
+					"text": "Our story"
+				}
+			]
+		}
+	},
+	"Order": {
+		"menu": {
+			"title": "Order Forms",
+			"links": [
+				{
+					"to": "https://cheeta-media.s3.eu-central-1.amazonaws.com/pricelists/GYM+PRICES+CHEETA.xlsx",
+					"text": "Global Gym Pricelist (€)"
+				},
+				{
+					"to": "https://cheeta-media.s3.eu-central-1.amazonaws.com/pricelists/EU+GYM+PRICES+CHEETA.xlsx",
+					"text": "EU Gym Pricelist (€)"
+				},
+				{
+					"to": "https://cheeta-media.s3.eu-central-1.amazonaws.com/pricelists/CHF+GYM+PRICES+CHEETA.xlsx",
+					"text": "CH Gym Pricelist (CHF)"
+				}
+			]
+		}
+	}
 }
