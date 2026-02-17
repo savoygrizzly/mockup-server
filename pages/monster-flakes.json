@@ -31,7 +31,19 @@
 			"type": "ImageCaption",
 			"props": {
 				"image": "v2/pages/MonsterFlakes/holds.jpg",
-				"caption": "Pure flakes for overhanging walls"
+				"caption": "Pure flakes for overhanging walls",
+                "styles": {
+					"image": {
+						"width": "90%"
+					},
+                    "block": {
+                        "alignItems": "flex-start"
+                    },
+                    "caption": {
+                        "textAlign": "right",
+                        "width": "100%"
+                    }
+				}
 			}
 		},
 		{
@@ -54,7 +66,10 @@
 				},
 				"imagePosition": "right",
 				"styles": {
-					"mainImage": { "marginTop": "-3%" }
+					"mainImage": { 
+                        "marginTop": "-5%",
+                        "width": "90%"
+                    }
 				}
 			}
 		},
@@ -64,8 +79,9 @@
 			"props": {
 				"title": "Not your average jug",
 				"paragraphs": [
-					{ "name": "jug", "desc": "Monster Flake holds have character..." }
-				],
+					{ "name": "jug", "desc": "Monster Flake holds have character and a unique identity, while ensuring comfort and ease of use in route setting, particularly for commercial settings. The Monster Flake range focuses on the quality of the climb. The holds support commitment and confidence on the wall, helping create routes and boulders that feel balanced and natural to climb." },
+                    { "name": "inspo", "desc": "Inspired by natural flakes, these holds offer the familiarity of outdoor rock, but don't worry, these ones are never loose!" }
+                ],
 				"buttonText": "Order now",
 				"buttonLink": "/products/..."
 			}
@@ -77,18 +93,19 @@
 					{
 						"src": "v2/pages/MonsterFlakes/collage1.jpg",
 						"alt": "Overhead view of climber with holds",
-						"width": "48%",
+						"width": "50%",
+                        "mobileWidth": "90%",
 						"anchor": true,
-						"zIndex": 1
+						"zIndex": 2
 					},
 					{
 						"src": "v2/pages/MonsterFlakes/collage2.jpg",
 						"alt": "Climber reaching for Monster Flake hold",
 						"width": "55%",
 						"position": { "right": "0", "top": "30%" },
-						"zIndex": 2,
+						"zIndex": 1,
 						"mobileWidth": "90%",
-						"mobilePosition": {}
+						"mobilePosition": {"left": "10%"}
 					}
 				],
 				"mobileStack": true,
@@ -100,7 +117,7 @@
 		{
 			"type": "ImageGrid",
 			"props": {
-				"gap": "0.25rem",
+				"gap": "0rem",
 				"images": [
 					{ "src": "v2/pages/MonsterFlakes/grid1.jpg", "flex": 1 },
 					{ "src": "v2/pages/MonsterFlakes/grid2.jpg", "flex": 1 },
