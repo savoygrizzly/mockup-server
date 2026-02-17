@@ -1,0 +1,112 @@
+{
+	"pageName": "Monster Flake",
+	"pageDesc": "Discover our new Monster Flake holds, designed to feel right from the first touch.",
+	"components": [
+		{
+			"type": "FullWidthImage",
+			"props": {
+				"image": "v2/pages/MonsterFlakes/hero.jpg",
+				"imageDesc": "Climber on wall with Monster Flake holds"
+			}
+		},
+		{
+			"type": "TitleBlock",
+			"props": {
+				"title": "Monster Flake",
+				"subtitle": "Designed to feel right"
+			}
+		},
+		{
+			"type": "TextBlock",
+			"props": {
+				"paragraphs": [
+					{
+						"name": "intro",
+						"desc": "The Monster Flake holds are designed to feel right from the first touch. Juggy shapes adapted for overhanging walls,both lead and boulder. From small footholds to positive crimps and big jugs, Monster Flake delivers a full range of simple and intuitive shapes."
+					}
+				]
+			}
+		},
+		{
+			"type": "ImageCaption",
+			"props": {
+				"image": "v2/pages/MonsterFlakes/holds.jpg",
+				"caption": "Pure flakes for overhanging walls"
+			}
+		},
+		{
+			"type": "TextImageCollage",
+			"props": {
+				"title": "Dual texture and functionality",
+				"paragraphs": [
+					{
+						"name": "p1",
+						"desc": "With 84 PU holds dispatched in 19 sets, the new Monster Flake range offers a wide range of setting possibilities. The dual-textured finish enhances the juggy grips: the holds remain positive and confidence-inspiring, while the smooth areas stay demanding. The wavy surfaces reinforce comfort, fully supporting the natural juggy character of the shapes."
+					}
+				],
+				"floatImage": {
+					"src": "v2/pages/MonsterFlakes/overlap1.jpg",
+					"alt": "Monster Flake yellow holds"
+				},
+				"mainImage": {
+					"src": "v2/pages/MonsterFlakes/overlap2.jpg",
+					"alt": "Climber on wall with Monster Flake holds"
+				},
+				"imagePosition": "right",
+				"styles": {
+					"mainImage": { "marginTop": "-3%" }
+				}
+			}
+		},
+
+		{
+			"type": "CTASection",
+			"props": {
+				"title": "Not your average jug",
+				"paragraphs": [
+					{ "name": "jug", "desc": "Monster Flake holds have character..." }
+				],
+				"buttonText": "Order now",
+				"buttonLink": "/products/..."
+			}
+		},
+		{
+			"type": "OverlappingImages",
+			"props": {
+				"images": [
+					{
+						"src": "v2/pages/MonsterFlakes/collage1.jpg",
+						"alt": "Overhead view of climber with holds",
+						"width": "48%",
+						"anchor": true,
+						"zIndex": 1
+					},
+					{
+						"src": "v2/pages/MonsterFlakes/collage2.jpg",
+						"alt": "Climber reaching for Monster Flake hold",
+						"width": "55%",
+						"position": { "right": "0", "top": "30%" },
+						"zIndex": 2,
+						"mobileWidth": "90%",
+						"mobilePosition": {}
+					}
+				],
+				"mobileStack": true,
+				"styles": {
+					"container": { "paddingBottom": "35%" }
+				}
+			}
+		},
+		{
+			"type": "ImageGrid",
+			"props": {
+				"gap": "0.25rem",
+				"images": [
+					{ "src": "v2/pages/MonsterFlakes/grid1.jpg", "flex": 1 },
+					{ "src": "v2/pages/MonsterFlakes/grid2.jpg", "flex": 1 },
+					{ "src": "v2/pages/MonsterFlakes/grid3.jpg", "flex": 1 }
+				]
+			}
+		}
+	]
+}
