@@ -6,7 +6,15 @@
 			"type": "FullWidthImage",
 			"props": {
 				"image": "v2/pages/MonsterFlakes/hero.jpg",
-				"imageDesc": "Climber on wall with Monster Flake holds"
+				"imageDesc": "Climber on wall with Monster Flake holds",
+                "styles": {
+                    "block": {
+                        "marginBottom": "2vh"
+                    },
+                    "image": {
+                        "maxHeight": "83vh"
+                    }
+                }
 			}
 		},
 		{
@@ -34,7 +42,7 @@
 				"caption": "Pure flakes for overhanging walls",
                 "styles": {
 					"image": {
-						"width": "90%"
+						"width": "95%"
 					},
                     "block": {
                         "alignItems": "flex-start"
