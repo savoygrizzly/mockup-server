@@ -14,6 +14,11 @@
 					"image": {
 						"maxHeight": "83vh"
 					}
+				},
+				"mobileStyles": {
+					"image": { "height": "80vh", "width": "auto", "overflow": "hidden" },
+					"img": { "height": "80vh", "objectPosition": "center 30%" },
+					"block": { "marginBottom": "1vh" }
 				}
 			}
 		},
