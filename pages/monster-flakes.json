@@ -41,8 +41,11 @@
 				"image": "v2/pages/MonsterFlakes/holds.jpg",
 				"caption": "Pure flakes for overhanging walls",
 				"mobileStyles": {
-      				"image": { "width": "100%" }
-    			},
+					"image": { "width": "100%" },
+					"caption": {
+						"textAlign": "left"
+					}
+				},
 				"styles": {
 					"image": {
 						"width": "95%"
@@ -78,7 +81,7 @@
 				},
 				"imagePosition": "right",
 				"mobileStyles": {
-					"mainImage": { "marginTop": "var(--grid-gap)","width": "100%" },
+					"mainImage": { "marginTop": "var(--grid-gap)", "width": "100%" },
 					"floatImage": { "marginLeft": "50%" }
 				},
 				"styles": {
