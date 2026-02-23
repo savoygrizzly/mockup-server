@@ -5,8 +5,8 @@
 			"title": "Camemberts",
 			"link": "/pages/camemberts",
 			"subtitle": "Where legacy meets innovation",
-			"backgroundImage": "v2/homepage/12-06-2025/arken_cheeta_camembert_4491_small-assembled.jpg",
-			"backgroundImageMobile": "v2/homepage/12-06-2025/arken_cheeta_camembert_4504_small.jpg",
+			"backgroundImage": "v2/homepage/23-02-2026/arken_cheeta_camembert_4491_small-assembled.jpg",
+			"backgroundImageMobile": "v2/homepage/23-02-2026/arken_cheeta_camembert_4504_small.jpg",
 			"buttons": [
 				{
 					"text": "Learn more",
@@ -30,6 +30,42 @@
 					"justifyContent": "flex-end",
 					"alignItems": "center",
 					"bottom": "20%",
+					"left": "0",
+					"height": "auto"
+				}
+			}
+		}
+	},
+	{
+		"type": "Hero",
+		"props": {
+			"title": "Monster Flakes",
+			"link": "/pages/monster-flakes",
+			"subtitle": "Designed to feel right",
+			"backgroundImage": "v2/homepage/23-02-2026/MonsterFlakes.jpg",
+			"buttons": [
+				{
+					"text": "Learn more",
+					"link": "/pages/monster-flakes"
+				}
+			],
+			"styles": {
+				"heroStyle": {
+					"display": "flex",
+					"height": "90vh",
+					"flexDirection": "column",
+					"justifyContent": "flex-end",
+					"color": "#fff",
+					"marginBottom": "var(--grid-gap)"
+				},
+				"heroUnitStyle": {
+					"position": "absolute",
+					"width": "100%",
+					"display": "flex",
+					"flexDirection": "column",
+					"justifyContent": "flex-end",
+					"alignItems": "center",
+					"bottom": "10%",
 					"left": "0",
 					"height": "auto"
 				}
@@ -190,7 +226,7 @@
 				},
 				{
 					"name": "Stadium",
-					"description": "Discover the new range.",
+					"description": "Discover the range.",
 					"title": "Stadium",
 					"link": "/products/Stadium/1/overview/Stadium",
 					"button": {
