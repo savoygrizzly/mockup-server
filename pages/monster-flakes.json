@@ -75,26 +75,37 @@
 						"desc": "With 84 PU holds dispatched in 19 sets, the new Monster Flake range offers a wide range of setting possibilities. The dual-textured finish enhances the juggy grips: the holds remain positive and confidence-inspiring, while the smooth areas stay demanding. The wavy surfaces reinforce comfort, fully supporting the natural juggy character of the shapes."
 					}
 				],
-				"mobileStack": true,
-				"floatImage": {
-					"src": "v2/pages/MonsterFlakes/overlap1.jpg",
-					"alt": "Monster Flake yellow holds"
-				},
+			"mobileStack": true,
+			"floatImage": {
+				"src": "v2/pages/MonsterFlakes/overlap1.jpg",
+				"alt": "Monster Flake yellow holds"
+			},
+			"mainImage": {
+				"src": "v2/pages/MonsterFlakes/overlap2.jpg",
+				"alt": "Climber on wall with Monster Flake holds"
+			},
+			"imagePosition": "right",
+			"mobileStyles": {
+				"floatCol": { "marginLeft": "45%", "width": "55%" },
 				"mainImage": {
-					"src": "v2/pages/MonsterFlakes/overlap2.jpg",
-					"alt": "Climber on wall with Monster Flake holds"
+					"marginTop": "-15%",
+					"width": "100%",
+					"height": "38vh",
+					"overflow": "hidden"
 				},
-				"imagePosition": "right",
-				"mobileStyles": {
-					"mainImage": { "marginTop": "var(--grid-gap)", "width": "100%" },
-					"floatImage": { "marginLeft": "50%" }
-				},
-				"styles": {
-					"mainImage": {
-						"marginTop": "-5%",
-						"width": "90%"
-					}
+				"mainImg": {
+					"height": "100%",
+					"width": "100%",
+					"objectFit": "cover",
+					"objectPosition": "center 30%"
 				}
+			},
+			"styles": {
+				"mainImage": {
+					"marginTop": "-5%",
+					"width": "90%"
+				}
+			}
 			}
 		},
 
@@ -117,33 +128,42 @@
 			}
 		},
 		{
-			"type": "OverlappingImages",
-			"props": {
-				"images": [
-					{
-						"src": "v2/pages/MonsterFlakes/collage1.jpg",
-						"alt": "Overhead view of climber with holds",
-						"width": "50%",
-						"mobileWidth": "100%",
-						"anchor": true,
-						"zIndex": 2
-					},
-					{
-						"src": "v2/pages/MonsterFlakes/collage2.jpg",
-						"alt": "Climber reaching for Monster Flake hold",
-						"width": "55%",
-						"position": { "right": "0", "top": "30%" },
-						"zIndex": 1,
-						"mobileWidth": "100%",
-						"mobilePosition": { "left": "10%" }
-					}
-				],
-				"mobileStack": true,
-				"styles": {
-					"container": { "paddingBottom": "35%" }
+		"type": "OverlappingImages",
+		"props": {
+			"images": [
+				{
+					"src": "v2/pages/MonsterFlakes/collage1.jpg",
+					"alt": "Overhead view of climber with holds",
+					"width": "50%",
+					"mobileWidth": "100%",
+					"anchor": true,
+					"zIndex": 2,
+					"mobileZIndex": 1,
+					"mobileHeight": "45vh",
+					"mobileObjectPosition": "center center"
+				},
+				{
+					"src": "v2/pages/MonsterFlakes/collage2.jpg",
+					"alt": "Climber reaching for Monster Flake hold",
+					"width": "55%",
+					"position": { "right": "0", "top": "30%" },
+					"zIndex": 1,
+					"mobileZIndex": 3,
+					"mobileWidth": "65%",
+					"mobilePosition": { "right": "0", "bottom": "0" },
+					"mobileHeight": "30vh",
+					"mobileObjectPosition": "center 30%"
 				}
+			],
+			"mobileStack": false,
+			"styles": {
+				"container": { "paddingBottom": "35%" }
+			},
+			"mobileStyles": {
+				"container": { "paddingBottom": "10%" }
 			}
-		},
+		}
+	},
 		{
 			"type": "TextBlock",
 			"props": {
