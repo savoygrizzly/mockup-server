@@ -16,9 +16,9 @@
 					}
 				},
 				"mobileStyles": {
-					"image": { "height": "80vh", "width": "auto", "overflow": "hidden" },
-					"img": { "height": "80vh", "objectPosition": "center 30%" },
-					"block": { "marginBottom": "1vh" }
+					"image": { "height": "75vh", "width": "auto", "overflow": "hidden" },
+					"img": { "height": "75vh", "objectPosition": "40% 0%" },
+					"block": { "marginBottom": "var(--grid-gap)" }
 				}
 			}
 		},
