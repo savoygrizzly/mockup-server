@@ -59,7 +59,7 @@
 						"alignItems": "flex-start"
 					},
 					"caption": {
-						"textAlign": "right",
+						"textAlign": "left",
 						"width": "100%"
 					}
 				}
@@ -141,6 +141,17 @@
 				"mobileStack": true,
 				"styles": {
 					"container": { "paddingBottom": "35%" }
+				}
+			}
+		},
+		{
+			"type": "TextBlock",
+			"props": {
+				"title": "From small footholds to positive crimps and big jugs",
+				"styles": {
+					"title": {
+						"marginBottom": "0"
+					}
 				}
 			}
 		},
