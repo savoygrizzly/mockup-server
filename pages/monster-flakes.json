@@ -95,12 +95,12 @@
 					"mainImage": {
 						"marginTop": "-15%",
 						"width": "100%",
-						"height": "38vh",
+						"height": "auto",
 						"overflow": "hidden"
 					},
 					"mainImg": {
-						"height": "100%",
 						"width": "100%",
+						"height": "auto !important",
 						"objectFit": "cover",
 						"objectPosition": "center 30%"
 					}
@@ -140,13 +140,12 @@
 						"src": "v2/pages/MonsterFlakes/collage1.jpg",
 						"alt": "Overhead view of climber with holds",
 						"width": "50%",
-						"mobileWidth": "50%",
+						"mobileWidth": "100%",
 						"anchor": true,
 						"zIndex": 2,
 						"mobileZIndex": 1,
-						"mobileHeight": "45vh",
-						"mobileObjectPosition": "80% center",
-						"mobilePosition": { "right": "0", "bottom": "30%" }
+						"mobileHeight": "auto",
+						"mobileObjectPosition": "80% center"
 					},
 					{
 						"src": "v2/pages/MonsterFlakes/collage2.jpg",
@@ -156,7 +155,7 @@
 						"zIndex": 1,
 						"mobileZIndex": 3,
 						"mobileWidth": "60%",
-						"mobilePosition": { "right": "0", "bottom": "-30%" },
+						"mobilePosition": { "left": "5%", "bottom": "-10%" },
 						"mobileHeight": "50vh",
 						"mobileObjectPosition": "70% 30%"
 					}
@@ -166,7 +165,7 @@
 					"container": { "paddingBottom": "35%" }
 				},
 				"mobileStyles": {
-					"container": { "paddingBottom": "10%" }
+					"container": { "paddingBottom": "10%", "height": "65vh" }
 				}
 			}
 		},
